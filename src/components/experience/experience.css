@@ -4,6 +4,16 @@
     gap: 2rem;
 }
 
+.experience__memoji {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 15rem;
+    width: 10rem;
+    margin: 0 auto;
+}
+
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -72,5 +82,9 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__memoji {
+        width: 17rem;
     }
 }

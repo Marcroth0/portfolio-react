@@ -1,12 +1,18 @@
 import React from 'react'
 import './experience.css'
 import {BsShieldFillCheck} from 'react-icons/bs'
+import MEM2 from '../../assets/memoji2.png'
+import MEM3 from '../../assets/memoji3.png'
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>The skills I have</h5>
       <h2>My Experience</h2>
+      <div className='experience__memoji'>
+        {/* <img src={MEM2} alt="" /> */}
+        <img src={MEM3} alt="" />
+      </div>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>

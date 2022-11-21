@@ -4,6 +4,7 @@ import {MdEmail} from 'react-icons/md'
 import {AiFillLinkedin} from 'react-icons/ai'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import MEMG from '../../assets/memojigif.gif'
 
 const Contact = () => {
   const form = useRef();
@@ -24,7 +25,9 @@ const Contact = () => {
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact me</h2>
-
+      <div className='contact__memoji'>
+        <img src={MEMG} alt="" />
+      </div>
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
