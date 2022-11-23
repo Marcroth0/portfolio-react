@@ -40,13 +40,13 @@ const Contact = () => {
             <AiFillLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Marcus Rothoff</h5>
-            <a href="https://www.linkedin.com/in/marcus-rothoff-59a079232/" target="_blank">Send a message</a>
+            <a href="https://www.linkedin.com/in/marcus-rothoff-59a079232/" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <AiFillLinkedin className='contact__option-icon'/>
             <h4>Text</h4>
             <h5>+46728552271</h5>
-            <a href="sms://+46728552271" target="_blank">Send a message</a>
+            <a href="sms://+46728552271" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
 
