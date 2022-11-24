@@ -17,23 +17,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Bobby Brown',
-    review: 'Honestly, he is the best i have ever encountered',
+    name: 'Ulf Karlsson',
+    review: 'Fick exakt vad som utlovades! Och vad snabbt det gick? Alla ändringar jag behövde skedde effektivt och utan krångel. Rekommenderar!',
   },
   {
     avatar: AVTR2,
-    name: 'Lars Mcknuckles',
-    review: 'Honestly, he is the best i have ever encountered',
+    name: 'Lars Eriksson',
+    review: 'Levererade enligt utsago och har inga som helst invändningar alls.',
   },
   {
     avatar: AVTR3,
-    name: 'Prince of Persia',
-    review: 'Honestly, he is the best i have ever encountered',
+    name: 'Mona',
+    review: 'Han övertalade mig om en annan design och fastän jag i början inte höll med blev jag glatt överraskad!',
   },
   {
     avatar: AVTR4,
-    name: 'Fabrizio Von Va bene',
-    review: 'Honestly, he is the best i have ever encountered',
+    name: 'Arianna',
+    review: 'He hooked me up! 5/5',
   },
 ]
 

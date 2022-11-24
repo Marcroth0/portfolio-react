@@ -44,8 +44,7 @@ const Contact = () => {
           </article>
           <article className='contact__option'>
             <AiFillLinkedin className='contact__option-icon'/>
-            <h4>Text</h4>
-            <h5>+46728552271</h5>
+            <h4>SMS</h4>
             <a href="sms://+46728552271" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>

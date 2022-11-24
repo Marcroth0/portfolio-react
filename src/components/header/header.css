@@ -13,11 +13,64 @@ header {
 /* call to action */
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 8rem;
     display:flex;
     gap: 1.2rem;
     justify-content:center;
 }
+
+.cv__shake:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
 
 /* Socials */
 
@@ -31,11 +84,15 @@ header {
     bottom: 3rem;
 }
 
+.header__socials > a {
+    color: var(--color-bg);
+}
+
 .header__socials::after {
     content: '';
     width:1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-bg);
 }
 
 /* Me img */
@@ -51,6 +108,7 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    z-index: -1;
 }
 
 /* Scroll down */
@@ -62,6 +120,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    color: var(--color-bg);
 }
 
 
@@ -70,6 +129,10 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh; 
+    }
+    .cta {
+        margin-top: 12rem;
+        margin-bottom: 12rem;
     }
 }
 

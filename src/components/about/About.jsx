@@ -35,7 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            With a history in the creative field of not only photography, but copywriting as well, I'm fully equipped fulfilling the needs of a modern company in need of a modern website. 
           </p>
           <a href="#contact" className='btn btn-primary'>Talk?</a>
         </div>
