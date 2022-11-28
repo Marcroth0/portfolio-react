@@ -14,16 +14,16 @@ const Services = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className='service__list'>
-            <li><AiOutlineCheck className='service__list-icon'/>
+            <li>
             <p>Fully fledged UI/UX design with figma layouts</p>
             </li>
-            <li><AiOutlineCheck className='service__list-icon'/>
+            <li>
             <p>User- and admin oriented websites</p>
             </li>
-            <li><AiOutlineCheck className='service__list-icon'/>
+            <li>
             <p>Unique ideas which attract attention</p>
             </li>
-            <li><AiOutlineCheck className='service__list-icon'/>
+            <li>
             <p>Weird idea? Please tell me more...</p>
             </li>
           </ul>
