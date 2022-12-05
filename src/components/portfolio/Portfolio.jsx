@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "E-commerce website with Stripe API",
+    title: "E-commerce website with Stripe API (Under construction)",
     github: "https://github.com/Marcroth0/canned-water",
     demo: "https://canned-water.herokuapp.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Relationship quarrel - an argument solver online",
+    title: "Relationship quarrel - an argument solver online(Undergoing a rebuild)",
     github: "https://github.com/Marcroth0/relationship-quarrel",
     demo: "https://quarrel2022.herokuapp.com",
   },
