@@ -21,7 +21,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsShieldFillCheck className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
+              <h4>Cypress/Jest</h4>
               <small className='text-light'>Experienced</small>
             </div>
           </article>
@@ -42,7 +42,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsShieldFillCheck className="experience__details-icon" />
             <div>
-              <h4>Bootstrap</h4>
+              <h4>Typescript</h4>
               <small className='text-light'>Experienced</small>
             </div>
           </article>
@@ -75,7 +75,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsShieldFillCheck className="experience__details-icon" />
             <div>
-              <h4>Django</h4>
+              <h4>Kotlin</h4>
               <small className='text-light'>Experienced</small>
             </div>
           </article>
@@ -103,7 +103,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsShieldFillCheck className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
+              <h4>AWS</h4>
               <small className='text-light'>Experienced</small>
             </div>
           </article>
