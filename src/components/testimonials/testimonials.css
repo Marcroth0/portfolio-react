@@ -31,6 +31,9 @@
 .swiper-pagination-clickable.swiper-pagination-bullet {
     background: var(--color-bg-primary);
 }
+.swiper-pagination-bullet {
+    background-color: var(--swiper-pagination-bullet-inactive-color, #ffff)!important;
+}
 
 @media screen and (max-width: 1024px) {
     .container.testimonials__container {
