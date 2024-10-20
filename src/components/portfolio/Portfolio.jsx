@@ -39,7 +39,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Hangman game in Python",
+    title: "Hangman game in Python (discontinued)",
     github: "https://github.com/Marcroth0/python-game",
     demo: "https://thawing-hamlet-48348.herokuapp.com",
   },
